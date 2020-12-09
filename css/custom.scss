@@ -1,0 +1,301 @@
+.banner-section .banner-absolute, .step-section .step-absoute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%); }
+
+.btn-check:focus + .btn, .btn:focus {
+  box-shadow: none !important; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif; }
+
+header {
+  padding: 14px 0 4px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
+  color: #7f7f7f;
+  text-transform: uppercase;
+  background: #33333314; }
+  header h6 {
+    font-weight: 400; }
+
+.nav.nav-top .nav-link {
+  display: block;
+  font-size: 13px;
+  font-weight: 100;
+  color: #7f7f7f;
+  padding: 0 23px;
+  transition: all .4s; }
+  .nav.nav-top .nav-link:hover {
+    color: #FF953A; }
+
+/****navbar*****/
+.navbar {
+  padding: 40px 0; }
+  .navbar ul.navbar-nav {
+    align-items: center; }
+    .navbar ul.navbar-nav li.nav-item a.nav-link {
+      padding: 0 16px;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #161616ad;
+      font-weight: 900;
+      border: 1px solid transparent;
+      font-family: "Times New Roman", Times, serif;
+      transition: all .3s ease-in-out; }
+      .navbar ul.navbar-nav li.nav-item a.nav-link:hover {
+        color: #FF953A !important; }
+    .navbar ul.navbar-nav li.nav-item a.join-now {
+      background: #FF953A !important;
+      margin-left: 85px;
+      padding: 12px 20px;
+      border-radius: 30px;
+      color: white;
+      font-weight: 900;
+      font-size: 15px; }
+      .navbar ul.navbar-nav li.nav-item a.join-now:hover {
+        background: transparent !important;
+        color: #FF953A; }
+
+/**banner-section-start***/
+.banner-section {
+  position: relative;
+  color: #efefef !important; }
+  .banner-section .banner-content h1 {
+    color: #efefef;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 1.5;
+    word-spacing: 5px;
+    padding-bottom: 50px;
+    margin: 0; }
+  .banner-section .banner-inner {
+    padding-bottom: 40px; }
+    .banner-section .banner-inner h5 {
+      font-size: 20px;
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 600;
+      letter-spacing: 1px; }
+    .banner-section .banner-inner h6 {
+      font-size: 14px;
+      margin: 0; }
+  .banner-section ul li a.bnr-btn-custom {
+    padding: 12px 24px;
+    background: #FF953A;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+    border: 1px solid #FF953A;
+    transition: all .2s ease-in-out; }
+    .banner-section ul li a.bnr-btn-custom:hover {
+      background: none;
+      color: #FF953A; }
+  .banner-section a.custom2 {
+    background: none !important;
+    color: white !important;
+    border: 1px solid white !important; }
+    .banner-section a.custom2:hover {
+      background: #FF953A !important;
+      color: white !important;
+      border: 1px solid #FF953A !important; }
+
+/****service-top-section******/
+.service-top {
+  padding: 75px 0;
+  text-align: center; }
+  .service-top .coin-bg {
+    padding: 45px 25px;
+    border: 2px solid #c8c6c694; }
+  .service-top .need-service-content {
+    background-image: url(./images/bitcoin.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .service-top .need-service-content img {
+      height: 90px; }
+    .service-top .need-service-content h4 {
+      padding: 30px 0;
+      font-size: 17px;
+      color: #000000d9;
+      font-weight: 600;
+      margin: 0; }
+    .service-top .need-service-content p {
+      font-size: 14px;
+      color: #535252;
+      font-weight: 600;
+      margin: 0; }
+
+/*****service-section-start*****/
+.multiple-heading h2 {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  text-transform: uppercase; }
+.multiple-heading p {
+  padding: 25px 0;
+  line-height: 20px;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: #6e6e6e;
+  text-transform: capitalize; }
+
+/***service-section**/
+.service-section {
+  padding-bottom: 75px; }
+  .service-section .service-content {
+    text-align: center; }
+    .service-section .service-content h4 {
+      padding: 20px 0 25px;
+      font-size: 18px;
+      color: #0d0d0dbf; }
+    .service-section .service-content p {
+      font-size: 15px;
+      color: #0d0d0dbf; }
+  .service-section .view-more {
+    padding-top: 95px; }
+  .service-section .view-more-btn {
+    border-color: #b4a6a6cf;
+    font-size: 15px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-transform: uppercase; }
+    .service-section .view-more-btn:hover {
+      background: #FF953A;
+      color: white;
+      border-color: #FF953A; }
+
+/******step-section*****/
+.step-section {
+  background-image: url(../images/bitcoin-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 90px;
+  position: relative;
+  overflow: hidden;
+  color: #fff !important; }
+  .step-section .step-img {
+    position: relative;
+    text-align: center; }
+    .step-section .step-img img:first-child {
+      text-align: center; }
+    .step-section .step-img img:nth-child(2) {
+      position: absolute;
+      bottom: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%); }
+  .step-section .steps-heading {
+    padding-bottom: 40px; }
+    .step-section .steps-heading h2 {
+      text-transform: uppercase;
+      font-size: 24px;
+      font-weight: 600; }
+  .step-section .pb-custom {
+    padding-bottom: 30px; }
+  .step-section .steps h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold; }
+  .step-section .steps p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 400; }
+  .step-section span.rectangle {
+    border: 1px solid #FF953A;
+    padding: 25px;
+    transform: rotate(45deg);
+    display: inline-block;
+    align-items: center;
+    margin-top: 15px; }
+
+/*****counter-section******/
+.counter-section {
+  background: #FF953A;
+  padding: 60px; }
+  .counter-section h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff; }
+  .counter-section p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff; }
+
+/*****spider-section*****/
+.spider-section {
+  padding: 60px 0; }
+  .spider-section .spider {
+    position: relative; }
+    .spider-section .spider img {
+      text-align: center; }
+    .spider-section .spider i {
+      padding: 15px;
+      transform: rotate(45deg);
+      border: 1px solid;
+      margin-bottom: 2px; }
+  .spider-section .left-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(0%, 0%); }
+    .spider-section .left-top i {
+      color: red; }
+    .spider-section .left-top span {
+      display: block; }
+  .spider-section .left-middle {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-50%, 0%); }
+    .spider-section .left-middle i {
+      color: #4BCA72; }
+    .spider-section .left-middle span {
+      display: block; }
+  .spider-section .left-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translate(0%, 0%); }
+    .spider-section .left-bottom i {
+      color: #00C5C8; }
+    .spider-section .left-bottom span {
+      display: block; }
+  .spider-section .right-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(0%, 0%); }
+    .spider-section .right-top i {
+      color: #00C5C8; }
+    .spider-section .right-top span {
+      display: block; }
+  .spider-section .right-middle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, 0%); }
+    .spider-section .right-middle i {
+      color: #4BCA72; }
+    .spider-section .right-middle span {
+      display: block; }
+  .spider-section .right-bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(0%, 0%); }
+    .spider-section .right-bottom i {
+      color: red; }
+    .spider-section .right-bottom span {
+      display: block; }
+
+/*# sourceMappingURL=custom.scss.map */
